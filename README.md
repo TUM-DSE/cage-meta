@@ -30,14 +30,13 @@ If you reference this project, please use the following citation information:
 
 ```bib
 @inproceedings{Fink2025Cage,
-  author    = {Fink, Martin and Stavrakakis, Dimitrios and Sprokholt, Dennis and Chakraborty, Soham and Ekberg, Jan-Erik and Bhatotia, Pramod},
-  title     = {Cage: Hardware-Accelerated Safe WebAssembly},
+  author = {Fink, Martin and Stavrakakis, Dimitrios and Sprokholt, Dennis and Chakraborty, Soham and Ekberg, Jan-Erik and Bhatotia, Pramod},
+  title = {{Cage: Hardware-Accelerated Safe WebAssembly}},
   booktitle = {Proceedings of the 23rd ACM/IEEE International Symposium on Code Generation and Optimization (CGO '25)},
-  year      = {2025},
-  location  = {Las Vegas, NV, USA},
+  year = {2025},
+  doi = {10.1145/3696443.3708920},
+  pages = {538--552},
   publisher = {ACM},
-  pages     = {15},
-  doi       = {10.1145/3696443.3708920},
-  url       = {https://doi.org/10.1145/3696443.3708920}
+  series = {CGO '25},
 }
 ```
