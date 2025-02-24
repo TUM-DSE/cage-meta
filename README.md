@@ -22,7 +22,7 @@ Cage further employs Arm's Pointer Authentication (PAC) to prevent leaked pointe
 We implement our system based on 64-bit WASM.
 We provide a WASM compiler and runtime with support for Arm's MTE and PAC.
 On top of that, Cage's LLVM-based compiler toolchain transforms unmodified applications to provide spatial and temporal memory safety for stack and heap allocations and prevent function pointer reuse.
-Our evaluation on real hardware shows that Cage incurs minimal runtime (<5.8%) and memory (<5.3) overheads and can improve the performance of WASM's sandboxing mechanism, achieving a speedup of over 5.1%, while offering efficient memory safety guarantees.
+Our evaluation on real hardware shows that Cage incurs minimal runtime (<5.8%) and memory (<5.3%) overheads and can improve the performance of WASM's sandboxing mechanism, achieving a speedup of over 5.1%, while offering efficient memory safety guarantees.
 
 ## Citation
 
